@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+  scroll-behavior: smooth;
+  max-width: 100vh;
+  box-sizing: border-box;
+  background-color: orange; /*remove after adding landing section */
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.rotate{
+    animation: rotation 10s infinite linear;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(230, 111, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    width: 5px;
+    height: 5px;
+}
