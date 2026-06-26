@@ -439,7 +439,7 @@ nav .fa {
 .social-icon-wrapper img:hover {
   transform: translateY(-20px);
 }
-/* Adding Responsiveness */
+
 
 @media (max-width: 700px) {
   .contact-row {
@@ -495,7 +495,7 @@ nav .fa {
   text-decoration: none;
   color: white;
 }
-/* Adding Responsiveness */
+
 
 @media (max-width: 700px) {
   #footer-section {
