@@ -117,7 +117,7 @@ nav a:hover {
 nav .fa {
   display: none;
 }
-/* Adding Responsivess to Nav Section */
+
 
 @media (max-width: 700px) {
   nav .fa {
@@ -213,7 +213,7 @@ nav .fa {
   z-index: 11;
   transition: 0.03s;
 }
-/* Addinng Landing Section Responsiveness */
+
 
 @media (min-width: 1100px) and (max-width: 1200px) {
   #orange-slice-2 {
