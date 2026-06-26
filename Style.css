@@ -321,7 +321,7 @@ nav .fa {
   color: white;
   margin-bottom: 10px;
 }
-/* Adding responsiveness to About Us Section */
+
 
 @media (max-width: 700px) {
   #about-us {
@@ -382,7 +382,7 @@ nav .fa {
   font-weight: 500;
   color: white;
 }
-/* Adding Responsiveness */
+
 
 @media (max-width: 700px) {
   .products-grid-wrapper {
